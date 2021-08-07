@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Event</title>
+
+  <style>
+    #container {
+      width: 745px;
+      height: 745px;
+      margin: 50px auto;
+      position: relative;
+      border: 2px dashed black;
+      background-image:url(images/Capture.JPG);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #square {
+      width: 100px;
+      height: 100px;
+      background-image: url(images/dd.png);
+      background-size: cover;
+      background-size: 80%;
+      background-repeat: no-repeat;
+      position: absolute;
+      
+      
+    }
+  </style>
+</head>
+<body style="background-color: bisque;">
+  <h1 class="text-center mt-2 bg-info w-50 mx-auto mt-5" style="border-radius: 25px;color: bisque;">DUCKHUNT</h1>
+    <div id="container">
+      <div id="square"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-4 mx-auto bg-light mt-1">
+      <!-- <h5>temps écoulé (en s) : <span id="iterateur"> </span></h5> -->
+      <!-- <h5>canard : <span id="ptsDuck"></span></h5> -->
+      <h5>chasseur : <span id="hunt"> </span> pts</h5>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
